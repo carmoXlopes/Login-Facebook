@@ -1,0 +1,103 @@
+*{
+    background-color: rgb(242, 240, 240);
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('/teste.jpg');
+    background-repeat: none;
+    background-size: cover;
+}
+#right{
+    position: absolute;
+    margin-top: 14rem;
+    float: left;
+    position: relative;
+    margin-left: 15em;
+}
+img{
+    width: 320px;
+    height: 55px;
+}
+#paragraph{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.forms{
+    background-color: #fff;
+    width: 380px;
+    height: 330px;
+    margin-top: 9rem;
+    float: right;
+    margin-right: 17em;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0/10%) 0px 2px 4px, rgb(0 0 0/ 10%) 0px 8px 16px;
+}
+.login{
+    background-color: #fff; 
+}
+.inputs{
+    padding: 12px;
+    height: 28px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    background-color: #fff;
+    color: blue;
+    font-size: 18px;
+    width: 92.5%;
+    outline: none;        
+}
+.inputs::placeholder{
+    color: rgb(202, 201, 201) ;
+}
+.inputs:focus{
+    border-color: blue;
+}
+.btn{
+  padding: 15px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.3rem;
+  transition: .2s;
+  background-color: rgb(28, 98, 229);
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn2{
+    background-color: rgb(7, 184, 7);
+    width: auto;
+    margin-left: 5.3em;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    background-color: #fff;
+    margin-left: 8em;
+    color: blue;
+}
+hr{
+    width: 100%;
+    border: 1px solid rgb(242, 240, 240) ;
+}
+#criar-pagina{
+    background-color: rgb(242, 240, 240);
+    margin-top: 3.5em;
+    width: 580px;
+    margin-left: -9em;
+    font-size: 15.5px;
+    
+}
+#emp{
+    text-align: center;
+    font-size: 15.5px;
+}
+#pc{
+    background-color: rgb(242, 240, 240);
+    color: black;
+    font-weight: bold;
+}
