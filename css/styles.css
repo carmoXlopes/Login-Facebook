@@ -4,13 +4,7 @@
     padding: 0;
     margin: 0;
 }
-body{
-    background-image: url('/teste.jpg');
-    background-repeat: none;
-    background-size: cover;
-}
-#right{
-    position: absolute;
+#left{
     margin-top: 14rem;
     float: left;
     position: relative;
